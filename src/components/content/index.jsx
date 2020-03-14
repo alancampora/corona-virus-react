@@ -1,5 +1,7 @@
 import React, {useLayoutEffect, useState} from 'react';
 import {flag} from 'country-emoji';
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
 import {
     StyledWrapper,
     StyledCard,
@@ -58,10 +60,23 @@ function useGetCoronaVirusData() {
     return [countries, totals];
 };
 
+const FILTERS = {
+    ALL: {value: 'all', label: 'all'},
+    WITH_DEATHS: {value: 'with-deaths', label: 'countries with deaths'},
+};
 const Content = () => {
     const [countries, totals] = useGetCoronaVirusData();
+    const [filter, setFilter] = useState(FILTERS.ALL);
+
     return (
         <div>
+            <StyledFilters>
+                <Dropdown
+                    options={[FILTERS.ALL, FILTERS.WITH_DEATHS]}
+                    value={FILTERS.ALL}
+                    onChange={selectedFilter => setFilter(selectedFilter)}
+                />
+            </StyledFilters>
             <StyledTotalsWrapper>
                 <StyledTotalCard backgroundColor="#ffff00b3">
                     <h1>Total Cases</h1>
@@ -82,6 +97,7 @@ const Content = () => {
             <StyledWrapper>
                 {
                     countries
+                        .filter(({deaths}) => filter.value === FILTERS.WITH_DEATHS.value ? deaths > 0 : true)
                         .map(({name, confirmed, deaths, recovered}) => (
                             <StyledCard>
                                 <StyledCardName>{flag(name)} {name}</StyledCardName>

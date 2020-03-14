@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.h1`
-  color:blue;
+  text-align: center;
 `;
 export const StyledContent = styled.div`
   margin-left: auto;
