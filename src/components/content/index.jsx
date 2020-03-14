@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { flag } from 'country-emoji';
-import Dropdown from 'react-dropdown';
+//import Dropdown from 'react-dropdown';
+import { navigate } from "@reach/router"
 import 'react-dropdown/style.css';
 import {
 	StyledWrapper,
@@ -33,6 +34,9 @@ const useCoronaVirusData = () => {
 	return [fetchedCountries, fetchedTotals];
 };
 
+const onCardClick = (id) => () => {
+  navigate(`country/${id}`);
+}
 const Content = () => {
 	const [countries, totals] = useCoronaVirusData();
 	const { search } = useSearch();
@@ -59,7 +63,7 @@ const Content = () => {
 			<StyledWrapper>
 				{search.length ===0  &&
 					countries.map(({ name, confirmed, deaths, recovered }) => (
-						<StyledCard>
+						<StyledCard onClick={onCardClick(name)}>
 							<StyledCardName>
 								{flag(name)} {name}
 							</StyledCardName>
