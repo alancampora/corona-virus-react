@@ -1,15 +1,19 @@
 import React from 'react';
-import { StyledTitle, StyledNav, StyledNavItem} from './styled';
+import { StyledTitle, StyledNav, StyledNavItem } from './styled';
+import Search from '../search';
 
+//<StyledNav>
+//<StyledNavItem>home</StyledNavItem>
+//<StyledNavItem>taking care</StyledNavItem>
+//<StyledNavItem>statistics</StyledNavItem>
+//</StyledNav>
 const Header = () => {
 	return (
 		<div>
-			<StyledTitle> Beating Corona Virus </StyledTitle>
-			<StyledNav>
-				<StyledNavItem>home</StyledNavItem>
-				<StyledNavItem>taking care</StyledNavItem>
-				<StyledNavItem>statistics</StyledNavItem>
-			</StyledNav>
+			<StyledTitle> Corona Virus Statistics </StyledTitle>
+			<div>
+				<Search />
+			</div>
 		</div>
 	);
 };
