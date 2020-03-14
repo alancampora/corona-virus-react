@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { flag } from 'country-emoji';
 //import Dropdown from 'react-dropdown';
-import { navigate } from "@reach/router"
+import { navigateTo } from "../../helpers"
 import 'react-dropdown/style.css';
 import {
 	StyledWrapper,
@@ -35,7 +35,7 @@ const useCoronaVirusData = () => {
 };
 
 const onCardClick = (id) => () => {
-  navigate(`country/${id}`);
+  navigateTo(`country/${id}`);
 }
 const Content = () => {
 	const [countries, totals] = useCoronaVirusData();

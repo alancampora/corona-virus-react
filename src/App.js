@@ -8,7 +8,7 @@ import { Router} from '@reach/router';
 function App() {
 	return (
 		<StateProvider>
-			<Router>
+			<Router basepath="corona-virus-react">
 				<Layout path="/" />
 				<Country path="country/:countryId" />
 			</Router>
