@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/corona-virus-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/corona-virus-react/static/js/main.b11709ae.chunk.js",
-    "main.js.map": "/corona-virus-react/static/js/main.b11709ae.chunk.js.map",
+    "main.js": "/corona-virus-react/static/js/main.bca99e9d.chunk.js",
+    "main.js.map": "/corona-virus-react/static/js/main.bca99e9d.chunk.js.map",
     "runtime-main.js": "/corona-virus-react/static/js/runtime-main.a415ab7a.js",
     "runtime-main.js.map": "/corona-virus-react/static/js/runtime-main.a415ab7a.js.map",
-    "static/css/2.84aa94cd.chunk.css": "/corona-virus-react/static/css/2.84aa94cd.chunk.css",
-    "static/js/2.ee16707e.chunk.js": "/corona-virus-react/static/js/2.ee16707e.chunk.js",
-    "static/js/2.ee16707e.chunk.js.map": "/corona-virus-react/static/js/2.ee16707e.chunk.js.map",
+    "static/css/2.eab1734b.chunk.css": "/corona-virus-react/static/css/2.eab1734b.chunk.css",
+    "static/js/2.4a417374.chunk.js": "/corona-virus-react/static/js/2.4a417374.chunk.js",
+    "static/js/2.4a417374.chunk.js.map": "/corona-virus-react/static/js/2.4a417374.chunk.js.map",
     "index.html": "/corona-virus-react/index.html",
-    "precache-manifest.60262ede198d136bcf030150edddd59d.js": "/corona-virus-react/precache-manifest.60262ede198d136bcf030150edddd59d.js",
+    "precache-manifest.7943f73fd70efc3084459d73fe6b4433.js": "/corona-virus-react/precache-manifest.7943f73fd70efc3084459d73fe6b4433.js",
     "service-worker.js": "/corona-virus-react/service-worker.js",
-    "static/css/2.84aa94cd.chunk.css.map": "/corona-virus-react/static/css/2.84aa94cd.chunk.css.map",
+    "static/css/2.eab1734b.chunk.css.map": "/corona-virus-react/static/css/2.eab1734b.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/corona-virus-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.ee16707e.chunk.js.LICENSE.txt": "/corona-virus-react/static/js/2.ee16707e.chunk.js.LICENSE.txt"
+    "static/js/2.4a417374.chunk.js.LICENSE.txt": "/corona-virus-react/static/js/2.4a417374.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a415ab7a.js",
-    "static/css/2.84aa94cd.chunk.css",
-    "static/js/2.ee16707e.chunk.js",
+    "static/css/2.eab1734b.chunk.css",
+    "static/js/2.4a417374.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b11709ae.chunk.js"
+    "static/js/main.bca99e9d.chunk.js"
   ]
 }
