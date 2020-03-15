@@ -1,21 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { flag } from 'country-emoji';
-//import Dropdown from 'react-dropdown';
-import { navigateTo } from '../../helpers';
-import Search from '../search';
 import 'react-dropdown/style.css';
 import {
 	StyledWrapper,
-	StyledCard,
-	StyledCardName,
 	StyledInformation,
 	StyledTotalsWrapper,
 	StyledTotalCard,
-	StyledFilters,
 } from './styled';
 import { getData, useSearch } from '../../hooks';
-import { useHistory } from 'react-router-dom';
+import { Input } from 'antd';
 import { Card, Col, Row } from 'antd';
+const { Search } = Input;
 const FILTERS = {
 	ALL: { value: 'all', label: 'all' },
 	WITH_DEATHS: { value: 'with-deaths', label: 'countries with deaths' },
@@ -36,14 +31,10 @@ const useCoronaVirusData = () => {
 	return [fetchedCountries, fetchedTotals];
 };
 
-const onCardClick = (history, id) => () => {
-	navigateTo(history, `/country/${id}/`);
-};
-
 const Content = props => {
 	const [countries, totals] = useCoronaVirusData();
+	const [searchTerm, setSearchTerm] = useState();
 	const { search } = useSearch();
-	const history = useHistory();
 
 	return (
 		<div>
@@ -64,10 +55,24 @@ const Content = props => {
 					<h1>{totals.deaths}</h1>
 				</StyledTotalCard>
 			</StyledTotalsWrapper>
+			<Row justify="center">
+				<Col span={8}>
+					<Search
+						size="large"
+						placeholder="Search by country name"
+						onChange={element => setSearchTerm(element.target.value)}
+					/>
+				</Col>
+			</Row>
 			<StyledWrapper>
 				<Row gutter={12}>
-					{search.length === 0 &&
-						countries.map(({ name, confirmed, deaths, recovered }) => (
+					{countries
+						.filter(({ name }) =>
+							searchTerm
+								? name.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0
+								: true,
+						)
+						.map(({ name, confirmed, deaths, recovered }) => (
 							<Col span={6}>
 								<Card
 									title={`${flag(name)} ${name}`}
