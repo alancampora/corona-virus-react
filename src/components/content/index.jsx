@@ -14,6 +14,7 @@ import {
 	StyledFilters,
 } from './styled';
 import { getData, useSearch } from '../../hooks';
+import { useHistory } from "react-router-dom";
 
 const FILTERS = {
 	ALL: { value: 'all', label: 'all' },
@@ -35,12 +36,13 @@ const useCoronaVirusData = () => {
 	return [fetchedCountries, fetchedTotals];
 };
 
-const onCardClick = (id) => () => {
-  navigateTo(`country/${id}`);
+const onCardClick = (history, id) => () => {
+  navigateTo(history,`country/${id}`);
 }
-const Content = () => {
+const Content = (props) => {
 	const [countries, totals] = useCoronaVirusData();
 	const { search } = useSearch();
+  const history = useHistory();
 
 	return (
 		<div>
@@ -65,7 +67,7 @@ const Content = () => {
 			<StyledWrapper>
 				{search.length ===0  &&
 					countries.map(({ name, confirmed, deaths, recovered }) => (
-						<StyledCard onClick={onCardClick(name)}>
+						<StyledCard onClick={onCardClick(history,name)}>
 							<StyledCardName>
 								{flag(name)} {name}
 							</StyledCardName>

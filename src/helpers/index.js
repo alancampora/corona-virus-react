@@ -1,5 +1,3 @@
-import { navigate } from '@reach/router';
-
-export const navigateTo = path => {
-	navigate(`${path}`);
+export const navigateTo = (history,path) => {
+  history.push(path);
 };
