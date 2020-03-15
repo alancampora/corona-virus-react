@@ -9,28 +9,47 @@ const fixKeys = {
 	China: 'Mainland China',
 };
 
+async function getCountryData(countryId) {
+	const cData = await fetch(
+		`https://covid19.mathdro.id/api/countries/${countryId}`,
+	);
+	const { confirmed, recovered, deaths } = await cData.json();
+	try {
+		return {
+			confirmed: parseInt(confirmed.value),
+			recovered: {
+				value: parseInt(recovered.value),
+				percent: Math.round(
+					(parseInt(recovered.value) / parseInt(confirmed.value)) * 100,
+				),
+			},
+			deaths: {
+				value: parseInt(deaths.value),
+				percent: Math.round(
+					(parseInt(deaths.value) / parseInt(confirmed.value)) * 100,
+				),
+			},
+		};
+	} catch (e) {
+		console.log(e);
+		return {
+			confirmed: 0,
+			recovered: {
+				value: 0,
+				percent: 0,
+			},
+			deaths: {
+				value: 0,
+				percent: 0,
+			},
+		};
+	}
+}
+
 const useCountryData = countryId => {
 	const [data, setData] = useState({});
 	useEffect(() => {
-		fetch(`https://covid19.mathdro.id/api/countries/${countryId}`)
-			.then(cData => cData.json())
-			.then(({ confirmed, recovered, deaths }) =>
-				setData({
-					confirmed: parseInt(confirmed.value),
-					recovered: {
-						value: parseInt(recovered.value),
-						percent: Math.round(
-							(parseInt(recovered.value) / parseInt(confirmed.value)) * 100,
-						),
-					},
-					deaths: {
-						value: parseInt(deaths.value),
-						percent: Math.round(
-							(parseInt(deaths.value) / parseInt(confirmed.value)) * 100,
-						),
-					},
-				}),
-			);
+		getCountryData(result => setData(result));
 	}, [countryId]);
 
 	return [data];
