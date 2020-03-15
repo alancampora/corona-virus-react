@@ -9,10 +9,16 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "country-emoji": "^1.5.0",
+    "d3": "^5.15.0",
+    "d3-array": "^2.4.0",
+    "d3-scale": "^3.2.1",
+    "d3-selection": "^1.4.1",
+    "lodash": "^4.17.15",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-dropdown": "^1.6.4",
     "react-scripts": "3.4.0",
+    "recharts": "^1.8.5",
     "styled-components": "^5.0.1"
   },
   "scripts": {
