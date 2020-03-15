@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { StateProvider } from './context';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './views/home';
 import Country from './views/country';
 
