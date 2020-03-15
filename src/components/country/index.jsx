@@ -49,7 +49,7 @@ async function getCountryData(countryId) {
 const useCountryData = countryId => {
 	const [data, setData] = useState({});
 	useEffect(() => {
-		getCountryData(result => setData(result));
+		getCountryData(countryId).then(result => setData(result));
 	}, [countryId]);
 
 	return [data];
