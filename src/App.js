@@ -8,10 +8,10 @@ import Country from './views/country';
 function App() {
 	return (
 		<StateProvider>
-			<Router basename="corona-virus-react">
+      <Router>
 				<Switch>
 					<Route exact path="/" component={Home} />
-          <Route path="/country/:countryId" component={Country} />
+          <Route exact path="/country/:countryId" component={Country} />
 				</Switch>
 			</Router>
 		</StateProvider>

@@ -37,7 +37,7 @@ const useCoronaVirusData = () => {
 };
 
 const onCardClick = (history, id) => () => {
-  navigateTo(history,`country/${id}`);
+  navigateTo(history,`/country/${id}/`);
 }
 const Content = (props) => {
 	const [countries, totals] = useCoronaVirusData();
