@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { flag } from 'country-emoji';
 //import Dropdown from 'react-dropdown';
-import { navigateTo } from "../../helpers"
+import { navigateTo } from '../../helpers';
 import Search from '../search';
 import 'react-dropdown/style.css';
 import {
@@ -14,8 +14,8 @@ import {
 	StyledFilters,
 } from './styled';
 import { getData, useSearch } from '../../hooks';
-import { useHistory } from "react-router-dom";
-
+import { useHistory } from 'react-router-dom';
+import { Card, Col, Row } from 'antd';
 const FILTERS = {
 	ALL: { value: 'all', label: 'all' },
 	WITH_DEATHS: { value: 'with-deaths', label: 'countries with deaths' },
@@ -37,16 +37,16 @@ const useCoronaVirusData = () => {
 };
 
 const onCardClick = (history, id) => () => {
-  navigateTo(history,`/country/${id}/`);
-}
-const Content = (props) => {
+	navigateTo(history, `/country/${id}/`);
+};
+
+const Content = props => {
 	const [countries, totals] = useCoronaVirusData();
 	const { search } = useSearch();
-  const history = useHistory();
+	const history = useHistory();
 
 	return (
 		<div>
-			<Search />
 			<StyledTotalsWrapper>
 				<StyledTotalCard backgroundColor="#ffff00b3">
 					<h1>Total Cases</h1>
@@ -65,17 +65,22 @@ const Content = (props) => {
 				</StyledTotalCard>
 			</StyledTotalsWrapper>
 			<StyledWrapper>
-				{search.length ===0  &&
-					countries.map(({ name, confirmed, deaths, recovered }) => (
-						<StyledCard onClick={onCardClick(history,name)}>
-							<StyledCardName>
-								{flag(name)} {name}
-							</StyledCardName>
-							<StyledInformation>{'🤒' + `${confirmed}`}</StyledInformation>
-							<StyledInformation>{'💀' + `${deaths}`}</StyledInformation>
-							<StyledInformation>{'😃' + `${recovered}`}</StyledInformation>
-						</StyledCard>
-					))}
+				<Row gutter={12}>
+					{search.length === 0 &&
+						countries.map(({ name, confirmed, deaths, recovered }) => (
+							<Col span={6}>
+								<Card
+									title={`${flag(name)} ${name}`}
+									extra={<a href={`#/country/${name}`}>More</a>}
+									style={{ margin: '10px' }}
+								>
+									<StyledInformation>{'🤒' + `${confirmed}`}</StyledInformation>
+									<StyledInformation>{'💀' + `${deaths}`}</StyledInformation>
+									<StyledInformation>{'😃' + `${recovered}`}</StyledInformation>
+								</Card>
+							</Col>
+						))}
+				</Row>
 			</StyledWrapper>
 		</div>
 	);
