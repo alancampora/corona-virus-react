@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { flag } from 'country-emoji';
 //import Dropdown from 'react-dropdown';
 import { navigateTo } from "../../helpers"
+import Search from '../search';
 import 'react-dropdown/style.css';
 import {
 	StyledWrapper,
@@ -43,6 +44,7 @@ const Content = () => {
 
 	return (
 		<div>
+			<Search />
 			<StyledTotalsWrapper>
 				<StyledTotalCard backgroundColor="#ffff00b3">
 					<h1>Total Cases</h1>

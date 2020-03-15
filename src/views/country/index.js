@@ -1,13 +1,13 @@
 import React from 'react';
 import BaseLayout from '../../components/layout';
-import Content from '../../components/content';
+import Content from '../../components/country';
 
-const Home = () => {
+const CountryView = ({ countryId }) => {
 	return (
 		<BaseLayout title="Corona Virus Statistics">
-			<Content />
+			<Content countryId={countryId} />
 		</BaseLayout>
 	);
 };
 
-export default Home;
+export default CountryView;

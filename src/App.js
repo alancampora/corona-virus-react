@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Layout from './components/layout/index.jsx';
-import Country from './components/country/index.jsx';
 import { StateProvider } from './context';
 import { Router} from '@reach/router';
+import Home from './views/home';
+import Country from './views/country';
 
 function App() {
 	return (
 		<StateProvider>
 			<Router basepath="corona-virus-react">
-				<Layout path="/" />
+				<Home path="/" />
 				<Country path="country/:countryId" />
 			</Router>
 		</StateProvider>
