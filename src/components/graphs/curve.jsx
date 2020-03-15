@@ -1,7 +1,6 @@
 import React from 'react';
 import map from 'lodash/map';
-/*
- *
+/* 
  *rawData = {
  *  china: {
  *    'day-1': {
@@ -33,14 +32,13 @@ const Chart = ({ rawData }) => {
   const values = map(rawData, (value, key) => value.confirmed);
   const yDomain = [Math.min(...values), Math.max(...values)];
 
-  console.log({rawData,formattedData, yDomain})
 	const data = formattedData;
 	return (
 		<LineChart
 			width={1000}
 			height={500}
 			data={data}
-			margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+			margin={{ top: 20, right: 20, left: 20, bottom: 20 }}
 		>
 			<XAxis dataKey="name" />
 			<YAxis domain={yDomain}/>
