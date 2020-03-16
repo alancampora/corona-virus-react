@@ -1,6 +1,6 @@
 {
   "homepage": "http://alancampora.github.io/corona-virus-react",
-  "name": "corona-virus-react",
+  "name": "corona-virus-statistics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
