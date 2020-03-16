@@ -9,41 +9,61 @@ const fixKeys = {
 	China: 'Mainland China',
 };
 
+//async function getCountryData(countryId) {
+//const cData = await fetch(
+//`https://covid19.mathdro.id/api/countries/${countryId}`,
+//);
+//const { confirmed, recovered, deaths } = await cData.json();
+//try {
+//return {
+//confirmed: parseInt(confirmed.value),
+//recovered: {
+//value: parseInt(recovered.value),
+//percent: Math.round(
+//(parseInt(recovered.value) / parseInt(confirmed.value)) * 100,
+//),
+//},
+//deaths: {
+//value: parseInt(deaths.value),
+//percent: Math.round(
+//(parseInt(deaths.value) / parseInt(confirmed.value)) * 100,
+//),
+//},
+//};
+//} catch (e) {
+//console.log(e);
+//return {
+//confirmed: 0,
+//recovered: {
+//value: 0,
+//percent: 0,
+//},
+//deaths: {
+//value: 0,
+//percent: 0,
+//},
+//};
+//}
+//}
+
 async function getCountryData(countryId) {
-	const cData = await fetch(
-		`https://covid19.mathdro.id/api/countries/${countryId}`,
-	);
-	const { confirmed, recovered, deaths } = await cData.json();
-	try {
-		return {
-			confirmed: parseInt(confirmed.value),
-			recovered: {
-				value: parseInt(recovered.value),
-				percent: Math.round(
-					(parseInt(recovered.value) / parseInt(confirmed.value)) * 100,
-				),
-			},
-			deaths: {
-				value: parseInt(deaths.value),
-				percent: Math.round(
-					(parseInt(deaths.value) / parseInt(confirmed.value)) * 100,
-				),
-			},
-		};
-	} catch (e) {
-		console.log(e);
-		return {
-			confirmed: 0,
-			recovered: {
-				value: 0,
-				percent: 0,
-			},
-			deaths: {
-				value: 0,
-				percent: 0,
-			},
-		};
-	}
+	if (!progessionData[countryId]) return {};
+
+	const keys = Object.keys(progessionData[countryId]);
+	const last = keys[keys.length - 1];
+	const { confirmed, recovered, deaths } = progessionData[countryId][last];
+
+	return {
+		confirmed,
+		recovered: {
+			value: recovered,
+			percent: Math.round((recovered / confirmed) * 100),
+		},
+		deaths: {
+			value: deaths,
+			percent: Math.round((deaths / confirmed) * 100),
+		},
+	};
 }
 
 const useCountryData = countryId => {

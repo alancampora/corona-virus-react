@@ -34,7 +34,6 @@ const useCoronaVirusData = () => {
 const Content = props => {
 	const [countries, totals] = useCoronaVirusData();
 	const [searchTerm, setSearchTerm] = useState();
-	const { search } = useSearch();
 
 	return (
 		<div>
