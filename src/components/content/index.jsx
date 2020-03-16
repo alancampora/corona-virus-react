@@ -1,21 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { flag } from 'country-emoji';
 import 'react-dropdown/style.css';
-import {
-	StyledWrapper,
-	StyledInformation,
-	StyledTotalsWrapper,
-	StyledTotalCard,
-} from './styled';
+import { StyledWrapper, StyledTotalsWrapper, StyledTotalCard } from './styled';
 import { getData, useSearch } from '../../hooks';
 import { Input } from 'antd';
-import { Card, Col, Row } from 'antd';
-const { Search } = Input;
-const FILTERS = {
-	ALL: { value: 'all', label: 'all' },
-	WITH_DEATHS: { value: 'with-deaths', label: 'countries with deaths' },
-};
+import { Col, Row } from 'antd';
+import Table from '../table';
 
+const { Search } = Input;
 const useCoronaVirusData = () => {
 	const { search } = useSearch();
 	const [fetchedCountries, setFetchedCountries] = useState([]);
@@ -35,6 +26,11 @@ const Content = props => {
 	const [countries, totals] = useCoronaVirusData();
 	const [searchTerm, setSearchTerm] = useState();
 
+	const filteredData = countries.filter(({ name }) =>
+		searchTerm
+			? name.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0
+			: true,
+	);
 	return (
 		<div>
 			<StyledTotalsWrapper>
@@ -64,27 +60,7 @@ const Content = props => {
 				</Col>
 			</Row>
 			<StyledWrapper>
-				<Row gutter={12}>
-					{countries
-						.filter(({ name }) =>
-							searchTerm
-								? name.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0
-								: true,
-						)
-						.map(({ name, confirmed, deaths, recovered }) => (
-							<Col span={6}>
-								<Card
-									title={`${flag(name)} ${name}`}
-									extra={<a href={`#/country/${name}`}>More</a>}
-									style={{ margin: '10px' }}
-								>
-									<StyledInformation>{'🤒' + `${confirmed}`}</StyledInformation>
-									<StyledInformation>{'💀' + `${deaths}`}</StyledInformation>
-									<StyledInformation>{'😃' + `${recovered}`}</StyledInformation>
-								</Card>
-							</Col>
-						))}
-				</Row>
+				<Table dataSource={filteredData} />
 			</StyledWrapper>
 		</div>
 	);

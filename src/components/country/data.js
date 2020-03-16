@@ -49,8 +49,6 @@ export default {
 		'03-08-2020': { confirmed: 80699, recovered: 57320, deaths: 3097 },
 		'03-09-2020': { confirmed: 80735, recovered: 58735, deaths: 3120 },
 		'03-10-2020': { confirmed: 80757, recovered: 60106, deaths: 3136 },
-		'03-11-2020': { confirmed: 0, recovered: 0, deaths: 0 },
-		'03-12-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	'Hong Kong': {
 		'01-22-2020': { confirmed: 0, recovered: 0, deaths: 0 },
