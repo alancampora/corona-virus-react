@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import 'react-dropdown/style.css';
-import { StyledWrapper, StyledTotalsWrapper, StyledTotalCard } from './styled';
+import { StyledWrapper } from './styled';
 import { getData, useSearch } from '../../hooks';
 import { Input } from 'antd';
-import { Col, Row, Card } from 'antd';
+import { Col, Row, Card, Progress, Statistic } from 'antd';
 import Table from '../table';
 
 const { Search } = Input;
@@ -33,59 +33,35 @@ const Content = props => {
 	);
 	return (
 		<div>
-			<Row  justify="space-around" style={{margin: '2rem'}}>
-				<Col span={4}>
-					<Card
-						size="small"
-						title="Total Confirmed"
-						headStyle={{
-							background: '#ffff00b3',
-							'font-size': '2em',
-							'text-align': 'center',
-						}}
-						bodyStyle={{
-							background: '#ffff00b3',
-							'font-size': '1.5em',
-							'text-align': 'center',
-						}}
-					>
-						<p>{totals.confirmed}</p>
+			<Row>
+				<Col span={8} align="center">
+					<Card bordered={false}>
+						<Statistic
+							title="Confirmed"
+							groupSeparator="."
+							value={totals.confirmed}
+							valueStyle={{ color: 'blue' }}
+						/>
 					</Card>
 				</Col>
-				<Col span={4}>
-					<Card
-						size="small"
-						title="Total Deaths"
-						headStyle={{
-							background: 'red',
-							'font-size': '2em',
-							'text-align': 'center',
-						}}
-						bodyStyle={{
-							background: 'red',
-							'font-size': '1.5em',
-							'text-align': 'center',
-						}}
-					>
-						<p>{totals.deaths}</p>
+				<Col span={8} align="center">
+					<Card bordered={false}>
+						<Statistic
+							title="Deaths"
+							groupSeparator="."
+							value={totals.deaths}
+							valueStyle={{ color: 'red' }}
+						/>
 					</Card>
 				</Col>
-				<Col span={4}>
-					<Card
-						size="small"
-						title="Total Recovered"
-						headStyle={{
-							background: '#94ff6a',
-							'font-size': '2em',
-							'text-align': 'center',
-						}}
-						bodyStyle={{
-							background: '#94ff6a',
-							'font-size': '1.5em',
-							'text-align': 'center',
-						}}
-					>
-						<p>{totals.recovered}</p>
+				<Col span={8} align="center">
+					<Card bordered={false}>
+						<Statistic
+							title="Recovered"
+							groupSeparator="."
+							value={totals.recovered}
+							valueStyle={{ color: '#3f8600' }}
+						/>
 					</Card>
 				</Col>
 			</Row>
