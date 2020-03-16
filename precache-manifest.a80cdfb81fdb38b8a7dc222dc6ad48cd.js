@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f337fb0cc547cbc8df7dd613b371564",
+    "revision": "637a6ddabd67d58b6696e9a043e6794f",
     "url": "/corona-virus-react/index.html"
   },
   {
-    "revision": "f6a02de52d18d13c086b",
+    "revision": "2d31953d6acc9fbac00f",
     "url": "/corona-virus-react/static/css/2.eab1734b.chunk.css"
   },
   {
-    "revision": "d366c2d531658c8e8dcf",
+    "revision": "5be0d15f2efedfa5920c",
     "url": "/corona-virus-react/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "f6a02de52d18d13c086b",
-    "url": "/corona-virus-react/static/js/2.4a417374.chunk.js"
+    "revision": "2d31953d6acc9fbac00f",
+    "url": "/corona-virus-react/static/js/2.1d7b993d.chunk.js"
   },
   {
     "revision": "a8fa0a685d8af2934ba8ade7768fed07",
-    "url": "/corona-virus-react/static/js/2.4a417374.chunk.js.LICENSE.txt"
+    "url": "/corona-virus-react/static/js/2.1d7b993d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d366c2d531658c8e8dcf",
-    "url": "/corona-virus-react/static/js/main.5b0c7f96.chunk.js"
+    "revision": "5be0d15f2efedfa5920c",
+    "url": "/corona-virus-react/static/js/main.efb01194.chunk.js"
   },
   {
     "revision": "51f0188bd84aa249681d",
