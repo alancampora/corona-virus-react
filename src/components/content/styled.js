@@ -5,13 +5,6 @@ export const StyledWrapper = styled.div`
 	padding: 30px;
 `;
 
-export const StyledCard = styled.div`
-	width: 25%;
-	padding: 10px;
-	margin: 10px;
-	background-color: #edcaca4d;
-`;
-
 export const StyledCardName = styled.h2`
 	text-align: center;
 `;
@@ -33,8 +26,8 @@ export const StyledTotalCard = styled.div`
 	background: ${props => props.backgroundColor};
 	text-align: center;
 	padding: 10px;
-	margin: 10px;
-	width: 25%;
+	margin: 20px;
+	width: 15%;
 	word-break: break-word;
 `;
 

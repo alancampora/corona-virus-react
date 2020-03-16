@@ -39,15 +39,15 @@ const Content = props => {
 					<h1>🤒</h1>
 					<h1>{totals.confirmed}</h1>
 				</StyledTotalCard>
-				<StyledTotalCard backgroundColor="#94ff6a">
-					<h1>Recovered</h1>
-					<h1>😃</h1>
-					<h1>{totals.recovered}</h1>
-				</StyledTotalCard>
 				<StyledTotalCard backgroundColor="red">
 					<h1>Deaths</h1>
 					<h1>💀</h1>
 					<h1>{totals.deaths}</h1>
+				</StyledTotalCard>
+				<StyledTotalCard backgroundColor="#94ff6a">
+					<h1>Recovered</h1>
+					<h1>😃</h1>
+					<h1>{totals.recovered}</h1>
 				</StyledTotalCard>
 			</StyledTotalsWrapper>
 			<Row justify="center">
