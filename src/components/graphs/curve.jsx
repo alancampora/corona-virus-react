@@ -26,7 +26,7 @@ const Chart = ({ rawData }) => {
 
   const formattedData = map(rawData, (value, key) => ({
     name: key.replace(/-/g,''),
-    value: value.confirmed
+    cases: value.confirmed
   }));
 
   const values = map(rawData, (value, key) => value.confirmed);
@@ -40,14 +40,14 @@ const Chart = ({ rawData }) => {
 			data={data}
 			margin={{ top: 20, right: 20, left: 20, bottom: 20 }}
 		>
-			<XAxis dataKey="name" />
+			<XAxis dataKey="name"/>
 			<YAxis domain={yDomain}/>
 			<CartesianGrid strokeDasharray="3 3" />
 			<Tooltip />
 			<Legend />
 			<Line
 				type="monotone"
-				dataKey="value"
+				dataKey="cases"
 				stroke="#8884d8"
         strokeWidth="3"
 				activeDot={{ r: 8 }}

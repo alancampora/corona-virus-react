@@ -75,11 +75,9 @@ const useCountryData = countryId => {
 	return [data];
 };
 const Country = ({ countryId }) => {
-	console.log({ countryId });
 	const [data] = useCountryData(countryId);
 	const overrideKey = fixKeys[countryId] ? fixKeys[countryId] : countryId;
 	const countryData = progessionData[overrideKey];
-	console.log({ data });
 	return (
 		<div>
 			<Row justify="center" style={{ margin: '1rem' }}>
@@ -109,7 +107,7 @@ const Country = ({ countryId }) => {
 			</Row>
 			<Row justify="center" style={{ margin: '1rem' }}>
 				<Col span={16}>
-					<PageHeader title="Progression of inffected people day by day" />
+					<PageHeader title="Progression of total confirmed cases by day" />
 					<Curve rawData={countryData} />
 				</Col>
 			</Row>
