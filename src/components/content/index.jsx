@@ -3,7 +3,7 @@ import 'react-dropdown/style.css';
 import { StyledWrapper, StyledTotalsWrapper, StyledTotalCard } from './styled';
 import { getData, useSearch } from '../../hooks';
 import { Input } from 'antd';
-import { Col, Row } from 'antd';
+import { Col, Row, Card } from 'antd';
 import Table from '../table';
 
 const { Search } = Input;
@@ -33,23 +33,62 @@ const Content = props => {
 	);
 	return (
 		<div>
-			<StyledTotalsWrapper>
-				<StyledTotalCard backgroundColor="#ffff00b3">
-					<h1>Total Cases</h1>
-					<h1>🤒</h1>
-					<h1>{totals.confirmed}</h1>
-				</StyledTotalCard>
-				<StyledTotalCard backgroundColor="red">
-					<h1>Deaths</h1>
-					<h1>💀</h1>
-					<h1>{totals.deaths}</h1>
-				</StyledTotalCard>
-				<StyledTotalCard backgroundColor="#94ff6a">
-					<h1>Recovered</h1>
-					<h1>😃</h1>
-					<h1>{totals.recovered}</h1>
-				</StyledTotalCard>
-			</StyledTotalsWrapper>
+			<Row  justify="space-around" style={{margin: '2rem'}}>
+				<Col span={4}>
+					<Card
+						size="small"
+						title="Total Confirmed"
+						headStyle={{
+							background: '#ffff00b3',
+							'font-size': '2em',
+							'text-align': 'center',
+						}}
+						bodyStyle={{
+							background: '#ffff00b3',
+							'font-size': '1.5em',
+							'text-align': 'center',
+						}}
+					>
+						<p>{totals.confirmed}</p>
+					</Card>
+				</Col>
+				<Col span={4}>
+					<Card
+						size="small"
+						title="Total Deaths"
+						headStyle={{
+							background: 'red',
+							'font-size': '2em',
+							'text-align': 'center',
+						}}
+						bodyStyle={{
+							background: 'red',
+							'font-size': '1.5em',
+							'text-align': 'center',
+						}}
+					>
+						<p>{totals.deaths}</p>
+					</Card>
+				</Col>
+				<Col span={4}>
+					<Card
+						size="small"
+						title="Total Recovered"
+						headStyle={{
+							background: '#94ff6a',
+							'font-size': '2em',
+							'text-align': 'center',
+						}}
+						bodyStyle={{
+							background: '#94ff6a',
+							'font-size': '1.5em',
+							'text-align': 'center',
+						}}
+					>
+						<p>{totals.recovered}</p>
+					</Card>
+				</Col>
+			</Row>
 			<Row justify="center">
 				<Col span={8}>
 					<Search
