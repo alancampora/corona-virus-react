@@ -3,26 +3,29 @@ import {Layout, Button} from 'antd';
 import {LeftOutlined} from '@ant-design/icons';
 import {StyledContent} from './styled';
 import 'antd/dist/antd.css';
-import {useHistory} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const {Header, Content, Footer} = Layout;
 
 const BaseLayout = ({title, children}) => {
-    const history = useHistory();
     return (
         <Layout className="layout" theme="light">
             <Header ghost={true}
                     style={{color: 'white', 'font-size': '1.2rem'}}
             >
                 <div>
-                    <Button shape="circle" icon={<LeftOutlined/>} onClick={() => history.goBack()}
-                            style={{
-                                color: 'white',
-                                background: 'black',
-                                border: '0px',
-                            }}
-                    />
-                    <span>{title} </span>
+                    {history.location.pathname !== "/" && (
+                        <Link to="/">
+                            <Button shape="circle" icon={<LeftOutlined/>}
+                                    style={{
+                                        color: 'white',
+                                        background: 'black',
+                                        border: '0px',
+                                    }}
+                            />
+                        </Link>
+                    )}
+                    < span> {title} </span>
                 </div>
             </Header>
             <Content style={{padding: '0 50px'}}>
