@@ -4,6 +4,8 @@ import { flag } from 'country-emoji';
 
 const order = (a, b) => parseInt(a) - parseInt(b);
 
+const withFlag = countryName => flag(countryName) ?  `${flag(countryName)} ${countryName}` :  countryName;
+
 const CustomTable = ({ dataSource }) => {
 	const columns = [
 		{
@@ -12,7 +14,7 @@ const CustomTable = ({ dataSource }) => {
 			key: 'name',
 			render: countryName => (
 				<a href={`#/country/${countryName}`}>
-					<span>{`${flag(countryName)} ${countryName}`}</span>
+					<span>{withFlag(countryName)}</span>
 				</a>
 			),
 		},
