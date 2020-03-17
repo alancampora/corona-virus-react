@@ -3,11 +3,12 @@ import {Layout, Button} from 'antd';
 import {LeftOutlined} from '@ant-design/icons';
 import {StyledContent} from './styled';
 import 'antd/dist/antd.css';
-import {Link} from 'react-router-dom'
+import {useHistory, Link} from 'react-router-dom'
 
 const {Header, Content, Footer} = Layout;
 
 const BaseLayout = ({title, children}) => {
+    const history = useHistory();
     return (
         <Layout className="layout" theme="light">
             <Header ghost={true}
