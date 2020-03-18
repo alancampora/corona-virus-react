@@ -2,7 +2,6 @@ import React from 'react';
 import {Layout, Button} from 'antd';
 import {LeftOutlined} from '@ant-design/icons';
 import {StyledContent} from './styled';
-import 'antd/dist/antd.css';
 import {useHistory, Link} from 'react-router-dom'
 
 const {Header, Content, Footer} = Layout;

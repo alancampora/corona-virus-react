@@ -11,6 +11,7 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+
                     <Route exact path="/country/:countryId" component={Country}/>
                 </Switch>
             </Router>
