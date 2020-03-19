@@ -13,10 +13,11 @@ async function getCountryData(countryId) {
     if (!progessionData[countryId]) return {};
 
     const keys = Object.keys(progessionData[countryId]);
-    const last = keys[keys.length - 1];
-    const {confirmed, recovered, deaths} = progessionData[countryId][last];
+    const lastUpdate = keys[keys.length - 1];
+    const {confirmed, recovered, deaths} = progessionData[countryId][lastUpdate];
 
     return {
+        lastUpdate,
         confirmed,
         recovered: {
             value: recovered,
@@ -70,7 +71,7 @@ const Country = ({countryId}) => {
             </Row>
             <Row justify="center" style={{margin: '1rem'}}>
                 <Col span={16}>
-                    <PageHeader title="Progression of total confirmed cases by day"/>
+                    <PageHeader title="Progression of total confirmed cases by day" subTitle={`Last update: ${data.lastUpdate}`}/>
                     <Curve rawData={countryData}/>
                 </Col>
             </Row>

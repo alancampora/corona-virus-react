@@ -257,6 +257,7 @@ export default {
 		'03-15-2020': { confirmed: 3499, recovered: 12, deaths: 63 },
 		'03-16-2020': { confirmed: 4632, recovered: 17, deaths: 85 },
 		'03-17-2020': { confirmed: 6421, recovered: 17, deaths: 108 },
+		'03-18-2020': { confirmed: 7786, recovered: 106, deaths: 118 },
 	},
 	Japan: {
 		'01-22-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -315,6 +316,7 @@ export default {
 		'03-15-2020': { confirmed: 839, recovered: 118, deaths: 22 },
 		'03-16-2020': { confirmed: 825, recovered: 144, deaths: 27 },
 		'03-17-2020': { confirmed: 878, recovered: 144, deaths: 29 },
+		'03-18-2020': { confirmed: 889, recovered: 144, deaths: 29 },
 	},
 	Thailand: {
 		'01-22-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -373,6 +375,7 @@ export default {
 		'03-15-2020': { confirmed: 114, recovered: 35, deaths: 1 },
 		'03-16-2020': { confirmed: 147, recovered: 35, deaths: 1 },
 		'03-17-2020': { confirmed: 177, recovered: 41, deaths: 1 },
+		'03-18-2020': { confirmed: 212, recovered: 42, deaths: 1 },
 	},
 	'South Korea': {
 		'01-22-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -480,6 +483,7 @@ export default {
 		'03-15-2020': { confirmed: 226, recovered: 105, deaths: 0 },
 		'03-16-2020': { confirmed: 243, recovered: 109, deaths: 0 },
 		'03-17-2020': { confirmed: 266, recovered: 114, deaths: 0 },
+		'03-18-2020': { confirmed: 313, recovered: 114, deaths: 0 },
 	},
 	Philippines: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -531,6 +535,7 @@ export default {
 		'03-15-2020': { confirmed: 140, recovered: 2, deaths: 11 },
 		'03-16-2020': { confirmed: 142, recovered: 2, deaths: 12 },
 		'03-17-2020': { confirmed: 187, recovered: 5, deaths: 12 },
+		'03-18-2020': { confirmed: 202, recovered: 5, deaths: 19 },
 	},
 	Malaysia: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -587,6 +592,7 @@ export default {
 		'03-15-2020': { confirmed: 428, recovered: 42, deaths: 0 },
 		'03-16-2020': { confirmed: 566, recovered: 42, deaths: 0 },
 		'03-17-2020': { confirmed: 673, recovered: 49, deaths: 2 },
+		'03-18-2020': { confirmed: 790, recovered: 60, deaths: 2 },
 	},
 	Vietnam: {
 		'01-23-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -643,6 +649,7 @@ export default {
 		'03-15-2020': { confirmed: 56, recovered: 16, deaths: 0 },
 		'03-16-2020': { confirmed: 61, recovered: 16, deaths: 0 },
 		'03-17-2020': { confirmed: 66, recovered: 16, deaths: 0 },
+		'03-18-2020': { confirmed: 75, recovered: 16, deaths: 0 },
 	},
 	Australia: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -699,6 +706,7 @@ export default {
 		'03-15-2020': { confirmed: 297, recovered: 23, deaths: 3 },
 		'03-16-2020': { confirmed: 377, recovered: 23, deaths: 3 },
 		'03-17-2020': { confirmed: 452, recovered: 23, deaths: 5 },
+		'03-18-2020': { confirmed: 568, recovered: 23, deaths: 6 },
 	},
 	Mexico: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -721,6 +729,7 @@ export default {
 		'03-15-2020': { confirmed: 41, recovered: 4, deaths: 0 },
 		'03-16-2020': { confirmed: 53, recovered: 4, deaths: 0 },
 		'03-17-2020': { confirmed: 82, recovered: 4, deaths: 0 },
+		'03-18-2020': { confirmed: 93, recovered: 4, deaths: 0 },
 	},
 	Brazil: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -745,6 +754,7 @@ export default {
 		'03-15-2020': { confirmed: 162, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 200, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 321, recovered: 2, deaths: 1 },
+		'03-18-2020': { confirmed: 372, recovered: 2, deaths: 3 },
 	},
 	Colombia: {
 		'01-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -760,6 +770,7 @@ export default {
 		'03-15-2020': { confirmed: 34, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 54, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 65, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 93, recovered: 1, deaths: 0 },
 	},
 	France: {
 		'01-24-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -816,6 +827,7 @@ export default {
 		'03-15-2020': { confirmed: 4513, recovered: 12, deaths: 91 },
 		'03-16-2020': { confirmed: 6650, recovered: 12, deaths: 148 },
 		'03-17-2020': { confirmed: 7683, recovered: 12, deaths: 148 },
+		'03-18-2020': { confirmed: 9052, recovered: 12, deaths: 148 },
 	},
 	Nepal: {
 		'01-25-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -871,6 +883,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 1, deaths: 0 },
 	},
 	Canada: {
 		'01-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -925,6 +938,7 @@ export default {
 		'03-15-2020': { confirmed: 250, recovered: 8, deaths: 1 },
 		'03-16-2020': { confirmed: 415, recovered: 9, deaths: 4 },
 		'03-17-2020': { confirmed: 478, recovered: 9, deaths: 5 },
+		'03-18-2020': { confirmed: 657, recovered: 9, deaths: 8 },
 	},
 	Cambodia: {
 		'01-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -978,6 +992,7 @@ export default {
 		'03-15-2020': { confirmed: 7, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 7, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 33, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 35, recovered: 1, deaths: 0 },
 	},
 	'Sri Lanka': {
 		'01-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1031,6 +1046,7 @@ export default {
 		'03-15-2020': { confirmed: 18, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 28, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 44, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 51, recovered: 1, deaths: 0 },
 	},
 	'Ivory Coast': { '01-27-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
 	Germany: {
@@ -1084,6 +1100,7 @@ export default {
 		'03-15-2020': { confirmed: 5795, recovered: 46, deaths: 11 },
 		'03-16-2020': { confirmed: 7272, recovered: 67, deaths: 17 },
 		'03-17-2020': { confirmed: 9257, recovered: 67, deaths: 24 },
+		'03-18-2020': { confirmed: 12327, recovered: 105, deaths: 28 },
 	},
 	Finland: {
 		'01-29-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1135,6 +1152,7 @@ export default {
 		'03-15-2020': { confirmed: 244, recovered: 10, deaths: 0 },
 		'03-16-2020': { confirmed: 277, recovered: 10, deaths: 0 },
 		'03-17-2020': { confirmed: 321, recovered: 10, deaths: 0 },
+		'03-18-2020': { confirmed: 336, recovered: 10, deaths: 0 },
 	},
 	'United Arab Emirates': {
 		'01-29-2020': { confirmed: 4, recovered: 0, deaths: 0 },
@@ -1186,6 +1204,7 @@ export default {
 		'03-15-2020': { confirmed: 98, recovered: 23, deaths: 0 },
 		'03-16-2020': { confirmed: 98, recovered: 23, deaths: 0 },
 		'03-17-2020': { confirmed: 98, recovered: 23, deaths: 0 },
+		'03-18-2020': { confirmed: 113, recovered: 26, deaths: 0 },
 	},
 	India: {
 		'01-30-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1236,6 +1255,7 @@ export default {
 		'03-15-2020': { confirmed: 113, recovered: 13, deaths: 2 },
 		'03-16-2020': { confirmed: 119, recovered: 13, deaths: 2 },
 		'03-17-2020': { confirmed: 142, recovered: 14, deaths: 3 },
+		'03-18-2020': { confirmed: 156, recovered: 14, deaths: 3 },
 	},
 	Italy: {
 		'01-31-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -1285,6 +1305,7 @@ export default {
 		'03-15-2020': { confirmed: 24747, recovered: 2335, deaths: 1809 },
 		'03-16-2020': { confirmed: 27980, recovered: 2749, deaths: 2158 },
 		'03-17-2020': { confirmed: 31506, recovered: 2941, deaths: 2503 },
+		'03-18-2020': { confirmed: 35713, recovered: 4025, deaths: 2978 },
 	},
 	UK: {
 		'01-31-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -1375,6 +1396,7 @@ export default {
 		'03-15-2020': { confirmed: 63, recovered: 8, deaths: 0 },
 		'03-16-2020': { confirmed: 90, recovered: 8, deaths: 0 },
 		'03-17-2020': { confirmed: 114, recovered: 8, deaths: 0 },
+		'03-18-2020': { confirmed: 147, recovered: 8, deaths: 0 },
 	},
 	Sweden: {
 		'01-31-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1424,6 +1446,7 @@ export default {
 		'03-15-2020': { confirmed: 1022, recovered: 1, deaths: 3 },
 		'03-16-2020': { confirmed: 1103, recovered: 1, deaths: 6 },
 		'03-17-2020': { confirmed: 1190, recovered: 1, deaths: 7 },
+		'03-18-2020': { confirmed: 1279, recovered: 1, deaths: 10 },
 	},
 	Spain: {
 		'02-01-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1472,6 +1495,7 @@ export default {
 		'03-15-2020': { confirmed: 7798, recovered: 517, deaths: 289 },
 		'03-16-2020': { confirmed: 9942, recovered: 530, deaths: 342 },
 		'03-17-2020': { confirmed: 11748, recovered: 1028, deaths: 533 },
+		'03-18-2020': { confirmed: 13910, recovered: 1081, deaths: 623 },
 	},
 	Belgium: {
 		'02-04-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1517,6 +1541,7 @@ export default {
 		'03-15-2020': { confirmed: 886, recovered: 1, deaths: 4 },
 		'03-16-2020': { confirmed: 1058, recovered: 1, deaths: 5 },
 		'03-17-2020': { confirmed: 1243, recovered: 1, deaths: 10 },
+		'03-18-2020': { confirmed: 1486, recovered: 31, deaths: 14 },
 	},
 	Others: {
 		'02-07-2020': { confirmed: 61, recovered: 0, deaths: 0 },
@@ -1587,6 +1612,7 @@ export default {
 		'03-15-2020': { confirmed: 110, recovered: 21, deaths: 2 },
 		'03-16-2020': { confirmed: 150, recovered: 27, deaths: 2 },
 		'03-17-2020': { confirmed: 196, recovered: 32, deaths: 4 },
+		'03-18-2020': { confirmed: 196, recovered: 32, deaths: 6 },
 	},
 	Iran: {
 		'02-19-2020': { confirmed: 2, recovered: 0, deaths: 2 },
@@ -1616,6 +1642,7 @@ export default {
 		'03-15-2020': { confirmed: 13938, recovered: 4590, deaths: 724 },
 		'03-16-2020': { confirmed: 14991, recovered: 4590, deaths: 853 },
 		'03-17-2020': { confirmed: 16169, recovered: 5389, deaths: 988 },
+		'03-18-2020': { confirmed: 17361, recovered: 5389, deaths: 1135 },
 	},
 	Israel: {
 		'02-21-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1644,6 +1671,7 @@ export default {
 		'03-15-2020': { confirmed: 251, recovered: 4, deaths: 0 },
 		'03-16-2020': { confirmed: 255, recovered: 4, deaths: 0 },
 		'03-17-2020': { confirmed: 337, recovered: 11, deaths: 0 },
+		'03-18-2020': { confirmed: 433, recovered: 11, deaths: 0 },
 	},
 	Lebanon: {
 		'02-21-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1672,6 +1700,7 @@ export default {
 		'03-15-2020': { confirmed: 110, recovered: 1, deaths: 3 },
 		'03-16-2020': { confirmed: 99, recovered: 1, deaths: 3 },
 		'03-17-2020': { confirmed: 120, recovered: 3, deaths: 3 },
+		'03-18-2020': { confirmed: 133, recovered: 3, deaths: 3 },
 	},
 	Iraq: {
 		'02-23-2020': { confirmed: 0, recovered: 0, deaths: 0 },
@@ -1698,6 +1727,7 @@ export default {
 		'03-15-2020': { confirmed: 116, recovered: 26, deaths: 10 },
 		'03-16-2020': { confirmed: 124, recovered: 26, deaths: 10 },
 		'03-17-2020': { confirmed: 154, recovered: 32, deaths: 11 },
+		'03-18-2020': { confirmed: 164, recovered: 43, deaths: 12 },
 	},
 	Oman: {
 		'02-24-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -1723,6 +1753,7 @@ export default {
 		'03-15-2020': { confirmed: 22, recovered: 9, deaths: 0 },
 		'03-16-2020': { confirmed: 22, recovered: 9, deaths: 0 },
 		'03-17-2020': { confirmed: 24, recovered: 9, deaths: 0 },
+		'03-18-2020': { confirmed: 39, recovered: 12, deaths: 0 },
 	},
 	Afghanistan: {
 		'02-24-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1748,6 +1779,7 @@ export default {
 		'03-15-2020': { confirmed: 16, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 21, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 22, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 22, recovered: 1, deaths: 0 },
 	},
 	Bahrain: {
 		'02-24-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1773,6 +1805,7 @@ export default {
 		'03-15-2020': { confirmed: 214, recovered: 60, deaths: 0 },
 		'03-16-2020': { confirmed: 214, recovered: 77, deaths: 1 },
 		'03-17-2020': { confirmed: 228, recovered: 81, deaths: 1 },
+		'03-18-2020': { confirmed: 256, recovered: 88, deaths: 1 },
 	},
 	Kuwait: {
 		'02-24-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1798,6 +1831,7 @@ export default {
 		'03-15-2020': { confirmed: 112, recovered: 5, deaths: 0 },
 		'03-16-2020': { confirmed: 123, recovered: 9, deaths: 0 },
 		'03-17-2020': { confirmed: 130, recovered: 9, deaths: 0 },
+		'03-18-2020': { confirmed: 142, recovered: 15, deaths: 0 },
 	},
 	Austria: {
 		'02-25-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -1822,6 +1856,7 @@ export default {
 		'03-15-2020': { confirmed: 860, recovered: 6, deaths: 1 },
 		'03-16-2020': { confirmed: 1018, recovered: 6, deaths: 3 },
 		'03-17-2020': { confirmed: 1332, recovered: 1, deaths: 3 },
+		'03-18-2020': { confirmed: 1646, recovered: 9, deaths: 4 },
 	},
 	Algeria: {
 		'02-25-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1846,6 +1881,7 @@ export default {
 		'03-15-2020': { confirmed: 48, recovered: 12, deaths: 4 },
 		'03-16-2020': { confirmed: 54, recovered: 12, deaths: 4 },
 		'03-17-2020': { confirmed: 60, recovered: 12, deaths: 4 },
+		'03-18-2020': { confirmed: 74, recovered: 12, deaths: 7 },
 	},
 	Croatia: {
 		'02-25-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1870,6 +1906,7 @@ export default {
 		'03-15-2020': { confirmed: 49, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 57, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 65, recovered: 4, deaths: 0 },
+		'03-18-2020': { confirmed: 81, recovered: 4, deaths: 0 },
 	},
 	Switzerland: {
 		'02-25-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1894,6 +1931,7 @@ export default {
 		'03-15-2020': { confirmed: 2200, recovered: 4, deaths: 14 },
 		'03-16-2020': { confirmed: 2200, recovered: 4, deaths: 14 },
 		'03-17-2020': { confirmed: 2700, recovered: 4, deaths: 27 },
+		'03-18-2020': { confirmed: 3028, recovered: 15, deaths: 28 },
 	},
 	Pakistan: {
 		'02-26-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -1917,6 +1955,7 @@ export default {
 		'03-15-2020': { confirmed: 53, recovered: 2, deaths: 0 },
 		'03-16-2020': { confirmed: 136, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 236, recovered: 2, deaths: 0 },
+		'03-18-2020': { confirmed: 299, recovered: 2, deaths: 0 },
 	},
 	Georgia: {
 		'02-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1940,6 +1979,7 @@ export default {
 		'03-15-2020': { confirmed: 33, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 33, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 34, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 38, recovered: 1, deaths: 0 },
 	},
 	Greece: {
 		'02-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1963,6 +2003,7 @@ export default {
 		'03-15-2020': { confirmed: 331, recovered: 8, deaths: 4 },
 		'03-16-2020': { confirmed: 331, recovered: 8, deaths: 4 },
 		'03-17-2020': { confirmed: 387, recovered: 8, deaths: 5 },
+		'03-18-2020': { confirmed: 418, recovered: 8, deaths: 5 },
 	},
 	'North Macedonia': {
 		'02-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -1986,6 +2027,7 @@ export default {
 		'03-15-2020': { confirmed: 14, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 18, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 26, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 35, recovered: 1, deaths: 0 },
 	},
 	Norway: {
 		'02-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2009,6 +2051,7 @@ export default {
 		'03-15-2020': { confirmed: 1221, recovered: 1, deaths: 3 },
 		'03-16-2020': { confirmed: 1333, recovered: 1, deaths: 3 },
 		'03-17-2020': { confirmed: 1463, recovered: 1, deaths: 3 },
+		'03-18-2020': { confirmed: 1550, recovered: 1, deaths: 6 },
 	},
 	Romania: {
 		'02-26-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2032,6 +2075,7 @@ export default {
 		'03-15-2020': { confirmed: 131, recovered: 9, deaths: 0 },
 		'03-16-2020': { confirmed: 158, recovered: 9, deaths: 0 },
 		'03-17-2020': { confirmed: 184, recovered: 16, deaths: 0 },
+		'03-18-2020': { confirmed: 260, recovered: 19, deaths: 0 },
 	},
 	Denmark: {
 		'02-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2054,6 +2098,7 @@ export default {
 		'03-15-2020': { confirmed: 875, recovered: 1, deaths: 2 },
 		'03-16-2020': { confirmed: 932, recovered: 1, deaths: 3 },
 		'03-17-2020': { confirmed: 1024, recovered: 1, deaths: 4 },
+		'03-18-2020': { confirmed: 1115, recovered: 1, deaths: 4 },
 	},
 	Estonia: {
 		'02-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2076,6 +2121,7 @@ export default {
 		'03-15-2020': { confirmed: 171, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 205, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 225, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 258, recovered: 1, deaths: 0 },
 	},
 	Netherlands: {
 		'02-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2098,6 +2144,7 @@ export default {
 		'03-15-2020': { confirmed: 1135, recovered: 2, deaths: 20 },
 		'03-16-2020': { confirmed: 1414, recovered: 2, deaths: 24 },
 		'03-17-2020': { confirmed: 1708, recovered: 2, deaths: 43 },
+		'03-18-2020': { confirmed: 2056, recovered: 2, deaths: 58 },
 	},
 	'San Marino': {
 		'02-27-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2120,6 +2167,7 @@ export default {
 		'03-15-2020': { confirmed: 101, recovered: 4, deaths: 5 },
 		'03-16-2020': { confirmed: 109, recovered: 4, deaths: 7 },
 		'03-17-2020': { confirmed: 109, recovered: 4, deaths: 7 },
+		'03-18-2020': { confirmed: 119, recovered: 4, deaths: 11 },
 	},
 	' Azerbaijan': { '02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
 	Belarus: {
@@ -2142,6 +2190,7 @@ export default {
 		'03-15-2020': { confirmed: 27, recovered: 3, deaths: 0 },
 		'03-16-2020': { confirmed: 36, recovered: 3, deaths: 0 },
 		'03-17-2020': { confirmed: 36, recovered: 3, deaths: 0 },
+		'03-18-2020': { confirmed: 51, recovered: 5, deaths: 0 },
 	},
 	Iceland: {
 		'02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2163,6 +2212,7 @@ export default {
 		'03-15-2020': { confirmed: 171, recovered: 8, deaths: 5 },
 		'03-16-2020': { confirmed: 180, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 220, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 250, recovered: 5, deaths: 1 },
 	},
 	Lithuania: {
 		'02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2184,6 +2234,7 @@ export default {
 		'03-15-2020': { confirmed: 12, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 17, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 25, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 27, recovered: 1, deaths: 0 },
 	},
 	'New Zealand': {
 		'02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2205,6 +2256,7 @@ export default {
 		'03-15-2020': { confirmed: 8, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 8, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 12, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 20, recovered: 0, deaths: 0 },
 	},
 	Nigeria: {
 		'02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2226,6 +2278,7 @@ export default {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 3, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 8, recovered: 1, deaths: 0 },
 	},
 	'North Ireland': { '02-28-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
 	Ireland: {
@@ -2247,6 +2300,7 @@ export default {
 		'03-15-2020': { confirmed: 129, recovered: 0, deaths: 2 },
 		'03-16-2020': { confirmed: 169, recovered: 0, deaths: 2 },
 		'03-17-2020': { confirmed: 223, recovered: 5, deaths: 2 },
+		'03-18-2020': { confirmed: 292, recovered: 5, deaths: 2 },
 	},
 	Luxembourg: {
 		'02-29-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2267,6 +2321,7 @@ export default {
 		'03-15-2020': { confirmed: 59, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 77, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 140, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 203, recovered: 0, deaths: 2 },
 	},
 	Monaco: {
 		'02-29-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2287,6 +2342,7 @@ export default {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 7, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 7, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 7, recovered: 0, deaths: 0 },
 	},
 	Qatar: {
 		'02-29-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2307,6 +2363,7 @@ export default {
 		'03-15-2020': { confirmed: 401, recovered: 4, deaths: 0 },
 		'03-16-2020': { confirmed: 439, recovered: 4, deaths: 0 },
 		'03-17-2020': { confirmed: 439, recovered: 4, deaths: 0 },
+		'03-18-2020': { confirmed: 452, recovered: 4, deaths: 0 },
 	},
 	Ecuador: {
 		'03-01-2020': { confirmed: 6, recovered: 0, deaths: 0 },
@@ -2326,6 +2383,7 @@ export default {
 		'03-15-2020': { confirmed: 28, recovered: 0, deaths: 2 },
 		'03-16-2020': { confirmed: 37, recovered: 0, deaths: 2 },
 		'03-17-2020': { confirmed: 58, recovered: 0, deaths: 2 },
+		'03-18-2020': { confirmed: 111, recovered: 0, deaths: 2 },
 	},
 	Azerbaijan: {
 		'03-01-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -2345,6 +2403,7 @@ export default {
 		'03-15-2020': { confirmed: 23, recovered: 6, deaths: 1 },
 		'03-16-2020': { confirmed: 15, recovered: 6, deaths: 1 },
 		'03-17-2020': { confirmed: 28, recovered: 6, deaths: 1 },
+		'03-18-2020': { confirmed: 28, recovered: 6, deaths: 1 },
 	},
 	'Czech Republic': {
 		'03-01-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -2376,6 +2435,7 @@ export default {
 		'03-15-2020': { confirmed: 26, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 52, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 78, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 84, recovered: 1, deaths: 0 },
 	},
 	'Dominican Republic': {
 		'03-01-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2395,6 +2455,7 @@ export default {
 		'03-15-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 21, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 21, recovered: 0, deaths: 1 },
 	},
 	Indonesia: {
 		'03-02-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2413,6 +2474,7 @@ export default {
 		'03-15-2020': { confirmed: 117, recovered: 8, deaths: 5 },
 		'03-16-2020': { confirmed: 134, recovered: 8, deaths: 5 },
 		'03-17-2020': { confirmed: 172, recovered: 8, deaths: 5 },
+		'03-18-2020': { confirmed: 227, recovered: 11, deaths: 19 },
 	},
 	Portugal: {
 		'03-02-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2431,6 +2493,7 @@ export default {
 		'03-15-2020': { confirmed: 245, recovered: 2, deaths: 0 },
 		'03-16-2020': { confirmed: 331, recovered: 3, deaths: 0 },
 		'03-17-2020': { confirmed: 448, recovered: 3, deaths: 1 },
+		'03-18-2020': { confirmed: 448, recovered: 3, deaths: 2 },
 	},
 	Andorra: {
 		'03-02-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2449,6 +2512,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 39, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 39, recovered: 1, deaths: 0 },
 	},
 	Latvia: {
 		'03-02-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2467,6 +2531,7 @@ export default {
 		'03-15-2020': { confirmed: 30, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 34, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 49, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 71, recovered: 1, deaths: 0 },
 	},
 	Morocco: {
 		'03-02-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2485,6 +2550,7 @@ export default {
 		'03-15-2020': { confirmed: 28, recovered: 1, deaths: 1 },
 		'03-16-2020': { confirmed: 29, recovered: 1, deaths: 1 },
 		'03-17-2020': { confirmed: 38, recovered: 1, deaths: 2 },
+		'03-18-2020': { confirmed: 49, recovered: 1, deaths: 2 },
 	},
 	'Saudi Arabia': {
 		'03-02-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2503,6 +2569,7 @@ export default {
 		'03-15-2020': { confirmed: 103, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 118, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 171, recovered: 6, deaths: 0 },
+		'03-18-2020': { confirmed: 171, recovered: 6, deaths: 0 },
 	},
 	Senegal: {
 		'03-02-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2521,6 +2588,7 @@ export default {
 		'03-15-2020': { confirmed: 24, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 24, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 26, recovered: 2, deaths: 0 },
+		'03-18-2020': { confirmed: 31, recovered: 2, deaths: 0 },
 	},
 	Argentina: {
 		'03-03-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2538,6 +2606,7 @@ export default {
 		'03-15-2020': { confirmed: 45, recovered: 1, deaths: 2 },
 		'03-16-2020': { confirmed: 56, recovered: 1, deaths: 2 },
 		'03-17-2020': { confirmed: 68, recovered: 3, deaths: 2 },
+		'03-18-2020': { confirmed: 79, recovered: 3, deaths: 2 },
 	},
 	Chile: {
 		'03-03-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2555,6 +2624,7 @@ export default {
 		'03-15-2020': { confirmed: 74, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 155, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 201, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 238, recovered: 0, deaths: 0 },
 	},
 	Jordan: {
 		'03-03-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2572,6 +2642,7 @@ export default {
 		'03-15-2020': { confirmed: 8, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 17, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 34, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 52, recovered: 1, deaths: 0 },
 	},
 	Ukraine: {
 		'03-03-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2589,6 +2660,7 @@ export default {
 		'03-15-2020': { confirmed: 3, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 7, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 14, recovered: 0, deaths: 2 },
+		'03-18-2020': { confirmed: 14, recovered: 0, deaths: 2 },
 	},
 	'Saint Barthelemy': {
 		'03-04-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -2614,6 +2686,7 @@ export default {
 		'03-15-2020': { confirmed: 32, recovered: 1, deaths: 1 },
 		'03-16-2020': { confirmed: 39, recovered: 1, deaths: 1 },
 		'03-17-2020': { confirmed: 50, recovered: 2, deaths: 1 },
+		'03-18-2020': { confirmed: 58, recovered: 2, deaths: 1 },
 	},
 	'Faroe Islands': {
 		'03-04-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2648,6 +2721,7 @@ export default {
 		'03-15-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 7, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 28, recovered: 0, deaths: 0 },
 	},
 	Poland: {
 		'03-04-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2664,6 +2738,7 @@ export default {
 		'03-15-2020': { confirmed: 119, recovered: 0, deaths: 3 },
 		'03-16-2020': { confirmed: 177, recovered: 13, deaths: 4 },
 		'03-17-2020': { confirmed: 238, recovered: 13, deaths: 5 },
+		'03-18-2020': { confirmed: 251, recovered: 13, deaths: 5 },
 	},
 	Tunisia: {
 		'03-04-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2680,6 +2755,7 @@ export default {
 		'03-15-2020': { confirmed: 18, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 20, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 24, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 29, recovered: 0, deaths: 0 },
 	},
 	Palestine: {
 		'03-05-2020': { confirmed: 4, recovered: 0, deaths: 0 },
@@ -2702,6 +2778,7 @@ export default {
 		'03-15-2020': { confirmed: 24, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 25, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 26, recovered: 2, deaths: 0 },
+		'03-18-2020': { confirmed: 38, recovered: 2, deaths: 0 },
 	},
 	Slovenia: {
 		'03-05-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2717,6 +2794,7 @@ export default {
 		'03-15-2020': { confirmed: 219, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 253, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 275, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 275, recovered: 0, deaths: 1 },
 	},
 	'South Africa': {
 		'03-05-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2732,6 +2810,7 @@ export default {
 		'03-15-2020': { confirmed: 51, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 62, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 62, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 116, recovered: 0, deaths: 0 },
 	},
 	Bhutan: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2746,6 +2825,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Cameroon: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2760,6 +2840,7 @@ export default {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 10, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 10, recovered: 0, deaths: 0 },
 	},
 	'Costa Rica': {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2774,6 +2855,7 @@ export default {
 		'03-15-2020': { confirmed: 27, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 35, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 41, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 50, recovered: 0, deaths: 0 },
 	},
 	Peru: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2788,6 +2870,7 @@ export default {
 		'03-15-2020': { confirmed: 43, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 86, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 117, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 145, recovered: 1, deaths: 0 },
 	},
 	Serbia: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2802,6 +2885,7 @@ export default {
 		'03-15-2020': { confirmed: 48, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 55, recovered: 1, deaths: 0 },
 		'03-17-2020': { confirmed: 65, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 83, recovered: 1, deaths: 0 },
 	},
 	Slovakia: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2816,6 +2900,7 @@ export default {
 		'03-15-2020': { confirmed: 54, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 63, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 72, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 105, recovered: 0, deaths: 1 },
 	},
 	Togo: {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2830,6 +2915,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	'Vatican City': {
 		'03-06-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2848,6 +2934,7 @@ export default {
 		'03-14-2020': { confirmed: 5, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 11, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 	},
 	Malta: {
 		'03-07-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -2861,6 +2948,7 @@ export default {
 		'03-15-2020': { confirmed: 21, recovered: 1, deaths: 0 },
 		'03-16-2020': { confirmed: 30, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 38, recovered: 2, deaths: 0 },
+		'03-18-2020': { confirmed: 38, recovered: 2, deaths: 0 },
 	},
 	Martinique: {
 		'03-07-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2874,6 +2962,7 @@ export default {
 		'03-15-2020': { confirmed: 9, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 15, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 16, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 19, recovered: 0, deaths: 1 },
 	},
 	'Republic of Ireland': {
 		'03-08-2020': { confirmed: 21, recovered: 0, deaths: 0 },
@@ -2889,6 +2978,7 @@ export default {
 		'03-15-2020': { confirmed: 51, recovered: 0, deaths: 2 },
 		'03-16-2020': { confirmed: 52, recovered: 0, deaths: 2 },
 		'03-17-2020': { confirmed: 67, recovered: 0, deaths: 2 },
+		'03-18-2020': { confirmed: 92, recovered: 0, deaths: 2 },
 	},
 	Maldives: {
 		'03-08-2020': { confirmed: 4, recovered: 0, deaths: 0 },
@@ -2901,6 +2991,7 @@ export default {
 		'03-15-2020': { confirmed: 13, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 13, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 13, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 13, recovered: 0, deaths: 0 },
 	},
 	Bangladesh: {
 		'03-08-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -2913,6 +3004,7 @@ export default {
 		'03-15-2020': { confirmed: 5, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 8, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 10, recovered: 3, deaths: 0 },
+		'03-18-2020': { confirmed: 14, recovered: 3, deaths: 1 },
 	},
 	Moldova: {
 		'03-08-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2924,6 +3016,7 @@ export default {
 		'03-15-2020': { confirmed: 23, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 23, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 30, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 30, recovered: 1, deaths: 1 },
 	},
 	Paraguay: {
 		'03-08-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -2936,6 +3029,7 @@ export default {
 		'03-15-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 8, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 9, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 	},
 	Albania: {
 		'03-09-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2947,6 +3041,7 @@ export default {
 		'03-15-2020': { confirmed: 42, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 51, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 55, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 59, recovered: 0, deaths: 2 },
 	},
 	Cyprus: {
 		'03-09-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -2958,6 +3053,7 @@ export default {
 		'03-15-2020': { confirmed: 26, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 33, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 46, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 49, recovered: 0, deaths: 0 },
 	},
 	'St. Martin': { '03-09-2020': { confirmed: 2, recovered: 0, deaths: 0 } },
 	Brunei: {
@@ -2970,6 +3066,7 @@ export default {
 		'03-15-2020': { confirmed: 50, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 54, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 56, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 68, recovered: 0, deaths: 0 },
 	},
 	'Iran (Islamic Republic of)': {
 		'03-10-2020': { confirmed: 8042, recovered: 2731, deaths: 291 },
@@ -3010,6 +3107,7 @@ export default {
 		'03-15-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 15, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 15, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 20, recovered: 0, deaths: 1 },
 	},
 	'Channel Islands': {
 		'03-10-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3023,6 +3121,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Mongolia: {
 		'03-10-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3033,6 +3132,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 5, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 	},
 	Panama: {
 		'03-10-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3043,6 +3143,7 @@ export default {
 		'03-15-2020': { confirmed: 43, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 55, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 69, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 86, recovered: 0, deaths: 1 },
 	},
 	China: {
 		'03-11-2020': { confirmed: 80921, recovered: 61644, deaths: 3161 },
@@ -3052,6 +3153,7 @@ export default {
 		'03-15-2020': { confirmed: 81003, recovered: 67017, deaths: 3203 },
 		'03-16-2020': { confirmed: 81033, recovered: 67910, deaths: 3217 },
 		'03-17-2020': { confirmed: 81058, recovered: 68798, deaths: 3230 },
+		'03-18-2020': { confirmed: 81102, recovered: 69755, deaths: 3241 },
 	},
 	'Korea, South': {
 		'03-11-2020': { confirmed: 7755, recovered: 288, deaths: 60 },
@@ -3061,6 +3163,7 @@ export default {
 		'03-15-2020': { confirmed: 8162, recovered: 510, deaths: 75 },
 		'03-16-2020': { confirmed: 8236, recovered: 1137, deaths: 75 },
 		'03-17-2020': { confirmed: 8320, recovered: 1407, deaths: 81 },
+		'03-18-2020': { confirmed: 8413, recovered: 1540, deaths: 84 },
 	},
 	'Cruise Ship': {
 		'03-11-2020': { confirmed: 696, recovered: 325, deaths: 7 },
@@ -3070,6 +3173,7 @@ export default {
 		'03-15-2020': { confirmed: 696, recovered: 325, deaths: 7 },
 		'03-16-2020': { confirmed: 696, recovered: 325, deaths: 7 },
 		'03-17-2020': { confirmed: 696, recovered: 325, deaths: 7 },
+		'03-18-2020': { confirmed: 712, recovered: 325, deaths: 7 },
 	},
 	'United Kingdom': {
 		'03-11-2020': { confirmed: 459, recovered: 19, deaths: 8 },
@@ -3079,6 +3183,7 @@ export default {
 		'03-15-2020': { confirmed: 1144, recovered: 19, deaths: 21 },
 		'03-16-2020': { confirmed: 1551, recovered: 21, deaths: 56 },
 		'03-17-2020': { confirmed: 1960, recovered: 53, deaths: 56 },
+		'03-18-2020': { confirmed: 2642, recovered: 67, deaths: 72 },
 	},
 	Czechia: {
 		'03-11-2020': { confirmed: 91, recovered: 0, deaths: 0 },
@@ -3088,6 +3193,7 @@ export default {
 		'03-15-2020': { confirmed: 253, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 298, recovered: 3, deaths: 0 },
 		'03-17-2020': { confirmed: 396, recovered: 3, deaths: 0 },
+		'03-18-2020': { confirmed: 464, recovered: 3, deaths: 0 },
 	},
 	'Taiwan*': {
 		'03-11-2020': { confirmed: 48, recovered: 17, deaths: 1 },
@@ -3097,6 +3203,7 @@ export default {
 		'03-15-2020': { confirmed: 59, recovered: 20, deaths: 1 },
 		'03-16-2020': { confirmed: 67, recovered: 20, deaths: 1 },
 		'03-17-2020': { confirmed: 77, recovered: 22, deaths: 1 },
+		'03-18-2020': { confirmed: 100, recovered: 22, deaths: 1 },
 	},
 	Bolivia: {
 		'03-11-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -3106,6 +3213,7 @@ export default {
 		'03-15-2020': { confirmed: 10, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 11, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 11, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 12, recovered: 0, deaths: 0 },
 	},
 	Honduras: {
 		'03-11-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -3115,6 +3223,7 @@ export default {
 		'03-15-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 8, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 9, recovered: 0, deaths: 0 },
 	},
 	'Congo (Kinshasa)': {
 		'03-11-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3124,6 +3233,7 @@ export default {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 3, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 	},
 	"Cote d'Ivoire": {
 		'03-11-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3133,6 +3243,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 5, recovered: 1, deaths: 0 },
+		'03-18-2020': { confirmed: 6, recovered: 1, deaths: 0 },
 	},
 	Jamaica: {
 		'03-11-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3142,6 +3253,7 @@ export default {
 		'03-15-2020': { confirmed: 10, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 10, recovered: 2, deaths: 0 },
 		'03-17-2020': { confirmed: 12, recovered: 2, deaths: 0 },
+		'03-18-2020': { confirmed: 13, recovered: 2, deaths: 0 },
 	},
 	Reunion: {
 		'03-11-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3151,6 +3263,7 @@ export default {
 		'03-15-2020': { confirmed: 7, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 9, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 9, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 12, recovered: 0, deaths: 0 },
 	},
 	Turkey: {
 		'03-11-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3160,6 +3273,7 @@ export default {
 		'03-15-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 18, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 47, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 98, recovered: 0, deaths: 1 },
 	},
 	Cuba: {
 		'03-12-2020': { confirmed: 3, recovered: 0, deaths: 0 },
@@ -3168,6 +3282,7 @@ export default {
 		'03-15-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 5, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 7, recovered: 0, deaths: 1 },
 	},
 	Guyana: {
 		'03-12-2020': { confirmed: 1, recovered: 0, deaths: 1 },
@@ -3176,6 +3291,7 @@ export default {
 		'03-15-2020': { confirmed: 4, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 4, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 7, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 7, recovered: 0, deaths: 1 },
 	},
 	Kazakhstan: {
 		'03-13-2020': { confirmed: 4, recovered: 0, deaths: 0 },
@@ -3183,6 +3299,7 @@ export default {
 		'03-15-2020': { confirmed: 9, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 10, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 33, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 35, recovered: 0, deaths: 0 },
 	},
 	'Cayman Islands': {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3195,6 +3312,7 @@ export default {
 		'03-15-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 18, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 27, recovered: 0, deaths: 0 },
 	},
 	Ethiopia: {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3202,6 +3320,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 5, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 5, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 	},
 	Sudan: {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 1 },
@@ -3209,6 +3328,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 1 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 1 },
 	},
 	Guinea: {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3216,6 +3336,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	'Antigua and Barbuda': {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3223,6 +3344,7 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Aruba: {
 		'03-13-2020': { confirmed: 2, recovered: 0, deaths: 0 },
@@ -3230,6 +3352,7 @@ export default {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 3, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 	},
 	Kenya: {
 		'03-13-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3237,48 +3360,56 @@ export default {
 		'03-15-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 3, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 	},
 	Uruguay: {
 		'03-14-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 8, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 29, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 50, recovered: 0, deaths: 0 },
 	},
 	Ghana: {
 		'03-14-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 7, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 7, recovered: 0, deaths: 0 },
 	},
 	Jersey: {
 		'03-14-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 0, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	Namibia: {
 		'03-14-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 	},
 	Seychelles: {
 		'03-14-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 4, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 	},
 	'Trinidad and Tobago': {
 		'03-14-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 5, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 7, recovered: 0, deaths: 0 },
 	},
 	Venezuela: {
 		'03-14-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 10, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 17, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 33, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 36, recovered: 0, deaths: 0 },
 	},
 	Curacao: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
@@ -3289,121 +3420,159 @@ export default {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Gabon: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Guatemala: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 1 },
 		'03-17-2020': { confirmed: 6, recovered: 0, deaths: 1 },
+		'03-18-2020': { confirmed: 6, recovered: 0, deaths: 1 },
 	},
 	Guernsey: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 0, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	Mauritania: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Rwanda: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 5, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 7, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 8, recovered: 0, deaths: 0 },
 	},
 	'Saint Lucia': {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 	},
 	'Saint Vincent and the Grenadines': {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Suriname: {
 		'03-14-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Kosovo: {
 		'03-15-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 	},
 	'Central African Republic': {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	'Congo (Brazzaville)': {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	'Equatorial Guinea': {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 4, recovered: 0, deaths: 0 },
 	},
 	Uzbekistan: {
 		'03-15-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-16-2020': { confirmed: 6, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 10, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 15, recovered: 0, deaths: 0 },
 	},
 	Guam: {
 		'03-16-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 3, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	'Puerto Rico': {
 		'03-16-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 0, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	Benin: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 	},
 	Greenland: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Liberia: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
 	},
 	Mayotte: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 	},
 	'Republic of the Congo': {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 0, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
 	},
 	Somalia: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
 	Tanzania: {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 3, recovered: 0, deaths: 0 },
 	},
 	'The Bahamas': {
 		'03-16-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
 	},
-	Barbados: { '03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 } },
-	Montenegro: { '03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 } },
-	'The Gambia': { '03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
+	Barbados: {
+		'03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+	},
+	Montenegro: {
+		'03-17-2020': { confirmed: 2, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+	},
+	'The Gambia': {
+		'03-17-2020': { confirmed: 1, recovered: 0, deaths: 0 },
+		'03-18-2020': { confirmed: 0, recovered: 0, deaths: 0 },
+	},
+	Kyrgyzstan: { '03-18-2020': { confirmed: 3, recovered: 0, deaths: 0 } },
+	Mauritius: { '03-18-2020': { confirmed: 3, recovered: 0, deaths: 0 } },
+	Zambia: { '03-18-2020': { confirmed: 2, recovered: 0, deaths: 0 } },
+	Djibouti: { '03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
+	'Gambia, The': { '03-18-2020': { confirmed: 1, recovered: 0, deaths: 0 } },
 };
