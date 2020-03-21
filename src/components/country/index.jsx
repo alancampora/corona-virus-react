@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import progessionData from './data';
 import Curve from '../graphs/curve';
-import {Card, Col, PageHeader, Progress, Row, Slider} from 'antd';
+import {Card, Col, PageHeader, Progress, Row } from 'antd';
 import {flag} from 'country-emoji';
 
 
@@ -39,36 +39,9 @@ const useCountryData = countryId => {
     return [data, setData];
 };
 
-const useFromToFilter = (countryData = null) => {
-    const [from, setFrom] = useState(0);
-    const [to, setTo] = useState(0);
-    const [marks, setMarks] = useState({});
-    const [maxAmountOfDays, setMaxAmountOfDays] = useState(0);
-
-    useEffect(() => {
-        maxAmountOfDays = countryData.allData ? countryData.allData.length - 1 : 0;
-        setTo(maxAmountOfDays);
-
-        let labels = {};
-        for (let i = from; i < maxAmountOfDays; i++) {
-            labels[Number(i)] = `${i}d`;
-        }
-        setMarks(labels);
-
-        console.log({marks, from, to});
-    }, [countryData]);
-
-    return [from, to, setFrom, setTo, maxAmountOfDays, marks];
-};
-
-const handleSliderChange = (setFrom, setTo) => ([from, to]) => {
-    setFrom(from);
-    setTo(to);
-};
-
 const Country = ({countryId}) => {
     const [data] = useCountryData(countryId);
-    const [from, to, setFrom, setTo, maxAmountOfDays, marks] = useFromToFilter(data);
+    //const [from, to, setFrom, setTo, maxAmountOfDays, marks] = useFromToFilter(data);
 
     return (
         <div>
@@ -97,9 +70,6 @@ const Country = ({countryId}) => {
                     </Card>
                 </Col>
             </Row>
-            <div>
-                <Slider range marks={marks} max={maxAmountOfDays} defaultValue={[0, maxAmountOfDays]}/>
-            </div>
             <Row justify="center" style={{margin: '1rem'}}>
                 <Col span={16}>
                     <PageHeader title="Progression of total confirmed cases by day"
