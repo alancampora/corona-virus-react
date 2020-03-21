@@ -4,7 +4,7 @@ import Curve from '../graphs/curve';
 import SimpleBarChart from '../graphs/simple-bar-chart';
 import { Card, Col, PageHeader, Progress, Row } from 'antd';
 import { flag } from 'country-emoji';
-import { getNewDeathsByDay } from './helpers';
+import { getNewDeathsByDay, getNewConfirmedByDay} from './helpers';
 
 const ENDPOINT = 'https://pomber.github.io/covid19/timeseries.json';
 
@@ -84,6 +84,16 @@ const Country = ({ countryId }) => {
 						data={getNewDeathsByDay(data.allData)}
 						dataKeyX="date"
 						dataKeyY="newDeaths"
+					/>
+				</Col>
+			</Row>
+      <Row justify="center" style={{ margin: '1rem' }}>
+				<Col span={16}>
+					<PageHeader title="New confirmed cases by day" />
+					<SimpleBarChart
+						data={getNewConfirmedByDay(data.allData)}
+						dataKeyX="date"
+						dataKeyY="newConfirmed"
 					/>
 				</Col>
 			</Row>
