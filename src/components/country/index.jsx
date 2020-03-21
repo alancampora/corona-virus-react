@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import progessionData from './data';
 import Curve from '../graphs/curve';
+import SimpleBarChart from '../graphs/simple-bar-chart';
 import { Card, Col, PageHeader, Progress, Row } from 'antd';
 import { flag } from 'country-emoji';
+import { getNewDeathsByDay } from './helpers';
 
 const ENDPOINT = 'https://pomber.github.io/covid19/timeseries.json';
 
@@ -71,11 +73,18 @@ const Country = ({ countryId }) => {
 			</Row>
 			<Row justify="center" style={{ margin: '1rem' }}>
 				<Col span={16}>
-					<PageHeader
-						title="Progression of total confirmed cases by day"
-						subTitle={`Last update: ${data.lastUpdate}`}
-					/>
+					<PageHeader title="Progression of total confirmed cases by day" />
 					<Curve rawData={data.allData} />
+				</Col>
+			</Row>
+			<Row justify="center" style={{ margin: '1rem' }}>
+				<Col span={16}>
+					<PageHeader title="Deaths by day" />
+					<SimpleBarChart
+						data={getNewDeathsByDay(data.allData)}
+						dataKeyX="date"
+						dataKeyY="newDeaths"
+					/>
 				</Col>
 			</Row>
 		</div>
