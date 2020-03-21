@@ -1,5 +1,4 @@
 import React from 'react';
-import map from 'lodash/map';
 /*
  *rawData = {
  *  china: {
@@ -12,24 +11,18 @@ import map from 'lodash/map';
  *  }
  *}
  */
-import {
-    LineChart,
-    Line,
-    XAxis,
-    YAxis,
-    CartesianGrid,
-    Tooltip,
-    Legend,
-    ResponsiveContainer,
-} from 'recharts';
+import {CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis,} from 'recharts';
 
-const Chart = ({rawData}) => {
-    const formattedData = map(rawData, (value, key) => ({
-        name: key.substring(0, 5),
-        cases: value.confirmed,
-    }));
+const Chart = ({rawData = []}) => {
+    const formattedData = rawData.map(({date, confirmed}) => {
+        const [_, __, month, day] = date.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+        return ({
+            name: `${month}-${day}`,
+            cases: confirmed,
+        })
+    });
 
-    const values = map(rawData, (value, key) => value.confirmed);
+    const values = rawData.map(({confirmed}) => confirmed);
     const yDomain = [Math.min(...values), Math.max(...values)];
 
     const data = formattedData;

@@ -7,7 +7,7 @@ App to get corona virus statistics over the world
 
 ### `yarn deploy`
 
-## Link
+## Link :D
 https://alancampora.github.io/corona-virus-react
 
 ## Resources
