@@ -1,0 +1,48 @@
+{
+    "turboLog": {
+        "gitLogCommandParams": "-n100 --reverse"
+    },
+    "turboCommit": {
+        "textAskTag": "Select Alon commit type: ",
+        "textAskComponent": "Insert affected component:",
+        "textAskTitle": "Type commit title:",
+        "textAskDesc": "Type commit description (leave it empty for omit):"
+    },
+    "commitConvention": {
+        "tagPrefix": "(",
+        "tagSuffix": ")",
+        "commitDesc": [
+            {
+                "tag": "feat",
+                "desc": "features commits.",
+                "color": "green"
+            },
+            {
+                "tag": "fix",
+                "desc": "bug fix commits.",
+                "color": "red"
+            },
+            {
+                "tag": "docs",
+                "desc": "documentation commits.",
+                "color": "blue"
+            },
+            {
+                "tag": "style",
+                "desc": "app style or code style.",
+                "color": "yellow"
+            },
+            {
+                "tag": "refactor",
+                "desc": "refactor commits.",
+                "color": "cyan"
+            },
+            {
+                "tag": "test",
+                "desc": "adding or modifying tests.",
+                "color": "white"
+            }
+        ]
+    },
+    "debug": false
+}
