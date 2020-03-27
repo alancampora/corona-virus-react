@@ -8,7 +8,7 @@ App to get corona virus statistics over the world
 ### `yarn deploy`
 
 ## Link
-https://alancampora.github.io/corona-virus-react
+https://corona-virus-stats.now.sh
 
 ## Resources
 * https://www.arcgis.com/index.html
